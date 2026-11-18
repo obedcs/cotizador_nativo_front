@@ -3,8 +3,8 @@ import logoNativo from './assets/logo-nativo.png';
 import Login from './components/Login.jsx';
 import './App.css';
 
-//const API_URL = 'http://localhost:4000/api';
-const API_URL = 'https://resilient-forgiveness-production-3c3e7bf6.up.railway.app/api';
+const API_URL = 'http://localhost:4000/api';
+//const API_URL = 'https://resilient-forgiveness-production-3c3e7bf6.up.railway.app/api';
 
 // Nuevo logotipo oficial de Nativo Web Design
 const NativoLogo = () => (
