@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import logoNativo from '../assets/logo-nativo.png';
 
-//const API_URL = 'http://localhost:4000/api';
-const API_URL = 'https://resilient-forgiveness-production-3c3e7bf6.up.railway.app/api';
+const API_URL = 'http://localhost:4000/api';
+//const API_URL = 'https://resilient-forgiveness-production-3c3e7bf6.up.railway.app/api';
 
 export default function Login({ onLoginSuccess, mensajeSesion }) {
   const [identificador, setIdentificador] = useState('');
